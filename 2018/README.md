@@ -3,7 +3,7 @@
 ## 2018-05-29
 
 - **Ashley Maynard** ([@AMaynard10](https://github.com/AMaynard10)): *Git/GitHub tutorial*
-- **You?**: *Something you spent hours figuring out this week*
+- **Giana Cirolia** ([@gianatcirolia](https://github.com/gianatcirolia)): *Combining 96-well plates into tall, tidy datasets*
 
 ## 2018-06-05
 
@@ -47,7 +47,7 @@
 
 ## 2018-07-31
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Renuka Kumar** ([@renukakumar](https://github.com/renukakumar)): *Finding restriction enzyme cut sites with regular expressions*
 - **You?**: *Something you spent hours figuring out this week*
 
 ## 2018-08-07
