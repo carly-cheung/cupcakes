@@ -38,7 +38,7 @@
 
 ## 2018-07-31
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Renuka Kumar** ([@renukakumar](https://github.com/renukakumar)): *Finding restriction enzyme cut sites with regular expressions*
 
 ## 2018-08-07
 
@@ -74,7 +74,7 @@
 
 ## 2018-10-02
 
-- **Renuka Kumar** ([@renukakumar](https://github.com/renukakumar)): *Finding restriction enzyme cut sites with regular expressions*
+- **You?**: *Something you spent hours figuring out this week*
 
 ## 2018-10-09
 
