@@ -14,27 +14,27 @@
 
 ## 2018-06-19
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Eric Waltari** ([@ewaltari](https://github.com/ewaltari)): *Something you spent hours figuring out this week*
 
 ## 2018-06-26
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Vedran Hadziosmanovic** ([@Vedranh13](https://github.com/Vedranh13)): *Something you spent hours figuring out this week*
 
 ## 2018-07-03
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Amy Kistler** ([@amykczb](https://github.com/amykczb)): *Something you spent hours figuring out this week*
 
 ## 2018-07-10
 
-- **You?**: *Something you spent hours figuring out this week*
+- **John Pak** ([@pakjohn1](https://github.com/pakjohn1)): *Something you spent hours figuring out this week*
 
 ## 2018-07-17
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Michelle Tan** ([@themichelletan](https://github.com/themichelletan)): *Something you spent hours figuring out this week*
 
 ## 2018-07-24
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
 
 ## 2018-07-31
 
@@ -42,27 +42,27 @@
 
 ## 2018-08-07
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
 
 ## 2018-08-14
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Sam Hao** ([@samlhao](https://github.com/samlhao)): *Something you spent hours figuring out this week*
 
 ## 2018-08-21
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Maira Phelps**: *Something you spent hours figuring out this week*
 
 ## 2018-08-28
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
 
 ## 2018-09-04
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Amy Lyden** ([@alyden](https://github.com/alyden)): *Something you spent hours figuring out this week*
 
 ## 2018-09-11
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Kalani Ratnasiri** ([@kalanir](https://github.com/kalanir)): *Something you spent hours figuring out this week*
 
 ## 2018-09-18
 
