@@ -50,7 +50,7 @@
 
 ## 2018-08-21
 
-- **Maira Phelps**: *Something you spent hours figuring out this week*
+- **Maira Phelps** ([@mairaphelps](https://github.com/mairaphelps)): *Something you spent hours figuring out this week*
 
 ## 2018-08-28
 
