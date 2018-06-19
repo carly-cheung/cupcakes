@@ -14,7 +14,7 @@
 
 ## 2018-06-19
 
-- **Eric Waltari** ([@ewaltari](https://github.com/ewaltari)): *Something you spent hours figuring out this week*
+- **Eric Waltari** ([@ewaltari](https://github.com/ewaltari)): *Using the `github.com/czbiohub/utilities` tools to align and count RNA-seq data*
 
 ## 2018-06-26
 
@@ -34,7 +34,7 @@
 
 ## 2018-07-24
 
-- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
+- **Gerry Meixiong**: *Something you spent hours figuring out this week*
 
 ## 2018-07-31
 
@@ -42,7 +42,7 @@
 
 ## 2018-08-07
 
-- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
+- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
 
 ## 2018-08-14
 
@@ -50,27 +50,27 @@
 
 ## 2018-08-21
 
-- **Maira Phelps** ([@mairaphelps](https://github.com/mairaphelps)): *Something you spent hours figuring out this week*
+- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
 
 ## 2018-08-28
 
-- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
+- **Maira Phelps** ([@mairaphelps](https://github.com/mairaphelps)): *Something you spent hours figuring out this week*
 
 ## 2018-09-04
 
-- **Amy Lyden** ([@alyden](https://github.com/alyden)): *Something you spent hours figuring out this week*
+- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
 
 ## 2018-09-11
 
-- **Kalani Ratnasiri** ([@kalanir](https://github.com/kalanir)): *Something you spent hours figuring out this week*
+- **Amy Lyden** ([@alyden](https://github.com/alyden)): *Something you spent hours figuring out this week*
 
 ## 2018-09-18
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Kalani Ratnasiri** ([@kalanir](https://github.com/kalanir)): *Something you spent hours figuring out this week*
 
 ## 2018-09-25
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Something you spent hours figuring out this week*
 
 ## 2018-10-02
 
