@@ -18,7 +18,7 @@
 
 ## 2018-06-26
 
-- **Vedran Hadziosmanovic** ([@Vedranh13](https://github.com/Vedranh13)): *Something you spent hours figuring out this week*
+- **Vedran Hadziosmanovic** ([@Vedranh13](https://github.com/Vedranh13)): *Introduction to deep learning*
 
 ## 2018-07-03
 
@@ -74,7 +74,7 @@
 
 ## 2018-10-02
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
 
 ## 2018-10-09
 
