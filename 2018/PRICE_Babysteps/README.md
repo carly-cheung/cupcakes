@@ -1,5 +1,5 @@
 ## Set up EC2 instance on aws capable of running 12 cores
-Kistler-MacBook:CMS_040_Orthobunyavirus amy.kistler$ `aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge CMS040Price`
+Kistler-MacBook:CMS_040_Orthobunyavirus amy.kistler$ `aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge amy.kistler-price`
 Identity added: /Users/amy.kistler/.ssh/aegea.launch.amy.kistler.Kistler-MacBook.pem (/Users/amy.kistler/.ssh/aegea.launch.amy.kistler.Kistler-MacBook.pem)
 INFO:aegea:Launch spec user data is 1880 bytes long
 INFO:aegea:Launched ec2.Instance(id='i-0fb83562e01245c1b') in ec2.Subnet(id='subnet-672e832e')
@@ -7,7 +7,7 @@ INFO:aegea:Launched ec2.Instance(id='i-0fb83562e01245c1b') in ec2.Subnet(id='sub
   "instance_id": "i-0fb83562e01245c1b"
 
 ## ssh onto that instance
-Kistler-MacBook:CMS_040_Orthobunyavirus amy.kistler$ `aegea ssh ubuntu@CMS040Price`
+Kistler-MacBook:CMS_040_Orthobunyavirus amy.kistler$ `aegea ssh ubuntu@amy.kistler-price`
 Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1057-aws x86_64)
 
  * Documentation:  https://help.ubuntu.com
