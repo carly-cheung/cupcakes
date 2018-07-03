@@ -22,7 +22,7 @@
 
 ## 2018-07-03
 
-- **Amy Kistler** ([@amykczb](https://github.com/amykczb)): *Something you spent hours figuring out this week*
+- **Amy Kistler** ([@amykczb](https://github.com/amykczb)): *Intro to de novo genome/transcript assembly*
 
 ## 2018-07-10
 
