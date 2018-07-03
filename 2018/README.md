@@ -22,7 +22,7 @@
 
 ## 2018-07-03
 
-- **Amy Kistler** ([@amykczb](https://github.com/amykczb)): *Something you spent hours figuring out this week*
+- **Amy Kistler** ([@amykczb](https://github.com/amykczb)): *Basic introduction to de novo sequence assembly of genomes or transcripts from NGS data*
 
 ## 2018-07-10
 
@@ -34,7 +34,7 @@
 
 ## 2018-07-24
 
-- **Gerry Meixiong**: *Something you spent hours figuring out this week*
+- **Sam Hao** ([@samlhao](https://github.com/samlhao)): *Something you spent hours figuring out this week*
 
 ## 2018-07-31
 
@@ -46,7 +46,7 @@
 
 ## 2018-08-14
 
-- **Sam Hao** ([@samlhao](https://github.com/samlhao)): *Something you spent hours figuring out this week*
+- **Gerry Meixiong**: *Something you spent hours figuring out this week*
 
 ## 2018-08-21
 
