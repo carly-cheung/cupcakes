@@ -26,7 +26,7 @@
 
 ## 2018-07-10
 
-- **John Pak** ([@pakjohn1](https://github.com/pakjohn1)): *Something you spent hours figuring out this week*
+- **John Pak** ([@pakjohn1](https://github.com/pakjohn1)): *A beginners guide to protein visualization using PyMOL, a versatile and open-source molecular graphics environment*
 
 ## 2018-07-17
 
@@ -46,7 +46,7 @@
 
 ## 2018-08-14
 
-- **Gerry Meixiong**: *Something you spent hours figuring out this week*
+- **Gerry Meixiong** ([@gmeixiong](https://github.com/gmeixiong)): *Something you spent hours figuring out this week*
 
 ## 2018-08-21
 
