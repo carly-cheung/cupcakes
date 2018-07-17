@@ -30,7 +30,7 @@
 
 ## 2018-07-17
 
-- **Michelle Tan** ([@themichelletan](https://github.com/themichelletan)): *Something you spent hours figuring out this week*
+- **Michelle Tan** ([@themichelletan](https://github.com/themichelletan)): *Automatically generating sample sheets for sequencing with R*
 
 ## 2018-07-24
 
