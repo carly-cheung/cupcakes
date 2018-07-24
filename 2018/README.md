@@ -34,7 +34,7 @@
 
 ## 2018-07-24
 
-- **Sam Hao** ([@samlhao](https://github.com/samlhao)): *Something you spent hours figuring out this week*
+- **Sam Hao** ([@samlhao](https://github.com/samlhao)): *Aligning reads using bowtie2 on AWS*
 
 ## 2018-07-31
 
@@ -78,7 +78,7 @@
 
 ## 2018-10-09
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *bedtools*
 
 ## 2018-10-16
 

@@ -7,7 +7,7 @@ date,presenter,github_username,topic
 2018-07-03,Amy Kistler,amykczb,Basic introduction to de novo sequence assembly of genomes or transcripts from NGS data
 2018-07-10,John Pak,pakjohn1,"A beginners guide to protein visualization using PyMOL, a versatile and open-source molecular graphics environment"
 2018-07-17,Michelle Tan,themichelletan,Automatically generating sample sheets for sequencing with R
-2018-07-24,Sam Hao,samlhao,
+2018-07-24,Sam Hao,samlhao,Aligning reads using bowtie2 on AWS
 2018-07-31,Renuka Kumar,renukakumar,Finding restriction enzyme cut sites with regular expressions
 2018-08-07,Rene Sit,renesit,
 2018-08-14,Gerry Meixiong,gmeixiong,
@@ -18,7 +18,7 @@ date,presenter,github_username,topic
 2018-09-18,Kalani Ratnasiri,kalanir,
 2018-09-25,Hera Canaj,hcanaj,
 2018-10-02,Lincoln Harris,lincoln-harris,
-2018-10-09,,,
+2018-10-09,Jason Li,Jathrone,bedtools
 2018-10-16,,,
 2018-10-23,,,
 2018-10-30,,,
