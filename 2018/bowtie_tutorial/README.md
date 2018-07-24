@@ -1,10 +1,10 @@
 # Launch EC2 Instance with Bowtie2
-Bowtie2 is installed on the Special Ops image in the conda environment _py2_.
+Bowtie2 is installed on the Special Ops image in the conda environment `py2`.
 ```bash
 aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge shao-cc
 ```
 
-# Connect to Instance 
+# Connect to Instance
 ```bash
 aegea ssh ubuntu@shao-cc
 ```
@@ -17,15 +17,24 @@ Quick-launch tmux session: `tmux`
 
 Named tmux session: `tmux new -s bowtie`
 
+
+_Note:_ This tutorial will be done using tmux key bindings. Google "gnu screen cheat sheet" to find the corresponding screen key bindings.
+
+# Optional: Install htop
+This will allow us to observe Bowtie2 running later.
+
+```bash
+sudo apt install htop
+htop        # Can also just use top, which is already installed
+q           # quit htop
+```
 # Download Data from S3
 
 ```bash
 cd /mnt/data
-aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R1_001.fastq.gz
-aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R2_001.fastq.gz
+aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R1_001.fastq.gz .
+aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R2_001.fastq.gz .
 ```
-
-_Note:_ This tutorial will be done using tmux key bindings. Google "gnu screen cheat sheet" to find the corresponding screen key bindings.
 
 
 # Upload Reference Genome from Local
@@ -35,13 +44,13 @@ _Note:_ This tutorial will be done using tmux key bindings. Google "gnu screen c
 In your local terminal, navigate to the directory containing the file.
 Upload the file to your instance, e.g.
 ```bash
-aegea scp ubuntu@shao-cc:/mnt/data
+aegea scp Staph_aureus_reference.fasta ubuntu@shao-cc:/mnt/data
 ```
 Go back to your instance.
 
 
 # Activate Conda Environment
-Bowtie2 is installed in the conda environment _py2_ (SRST2, which depends on Bowtie2 and Python 2, is installed here as well).
+Bowtie2 is installed in the conda environment `py2` (SRST2, which depends on Bowtie2 and Python 2, is installed here as well).
 
 
 ```bash
@@ -60,18 +69,22 @@ Once we have the manual, we'd like to be able to refer to it as we're typing our
 ```bash
 ^B      # All tmux commands are preceded by ctrl + b
 %       # key binding to vertically split screen
+^B
+<-      # Use arrow keys to move between panes
 ```
 In order to move around on the window, we have to enter copy mode.
 ```bash
 ^B
-[
+[       # enter copy mode
 # Use arrow keys to move up and down. Hold Fn to move by page.
 ```
-Now switch to the new pane, where we will actually run Bowtie2.
+Now switch to the new pane and move to /mnt/data, where we will actually run Bowtie2.
 
 ```bash
 ^B
 ->      # Use arrow keys to move between panes
+cd /mnt/data
+source activate py2     # tmux is not good at keeping our conda environments active :(
 ```
 Google "tmux cheat sheet" to find the key bindings for more functions.
 
@@ -82,6 +95,7 @@ Bowtie2 requires an index built from our reference.
 ```bash
 bowtie2-build Staph_aureus_reference.fasta S_aur_ref
 ```
+
 
 ## Aligning Reads to Reference
 You should refer to the manual to see what options you need. Below is what a default Bowtie2 command looks like.
@@ -99,15 +113,10 @@ bowtie2 -x S_aur_ref -1 RR011_006_iso_rna1_H52678_S6_R1_001.fastq.gz -2 RR011_00
 bowtie2 -x S_aur_ref -1 RR011_006_iso_rna1_H52678_S6_R1_001.fastq.gz -2 RR011_006_iso_rna1_H52678_S6_R2_001.fastq.gz -S sample1_S_aur.sam -p 16 --no-unal --very-fast 2> sample1_S_aur.out
 ```
 
-## Observing Bowtie2
-Now that we're done with the manual, we can use that pane to observe our process instead.
-In the other pane:
+Bowtie2 will be done in less than 10 minutes.
 
-```bash
-q           #exits copy mode
-sudo apt install htop
-htop        # Can also just use top, which is already installed
-```
+
+
 
 ## Reading Overall Alignment Statistics
 ```bash
@@ -125,5 +134,43 @@ q       # to quit
 - BAM is the binary of a SAM file
 - Can't load SAM/BAM to view in Geneious without reference FASTA
 
+# Downstream Analysis
+
+## Samtools
+- We'll use samtools to convert SAM to BAM, but we need to update our version first.
+
+```bash
+samtools
+
+Program: samtools (Tools for alignments in the SAM format)
+Version: 0.1.18 (r982:295)
+```
+
+```bash
+source deactivate
+conda create -n samtools-env samtools
+source activate samtools-env
+```
+
+```bash
+samtools
+
+Program: samtools (Tools for alignments in the SAM format)
+Version: 1.9 (using htslib 1.9)
+```
+## Converting to sorted BAM
+
+```bash
+samtools view -b sample1_S_aur.sam -o sample1_S_aur.bam -@ 15
+# This should take about 30 seconds
+samtools sort sample1_S_aur.bam -o sample1_S_aur.sorted.bam -@ 15
+samtools index -b -@ 15 sample1_S_aur.sorted.bam sample1_S_aur.bam.bai
+```
+The sorted and indexed BAM files are useful for different workflows, including generating coverage plots and variant calling. The samtools guide has a variant-calling workflow [here](http://www.htslib.org/workflow/#mapping_to_variant) that uses bcftools (`conda install bcftools`).
+
+# Working with Files on Local
+```bash
+aegea scp ubuntu@shao-cc:/mnt/data/sample1_S_aur.bam .
+```
 # Terminate Instance
 `aegea terminate shao-cc`
