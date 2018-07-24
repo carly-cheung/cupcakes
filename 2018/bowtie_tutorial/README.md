@@ -4,13 +4,30 @@ Bowtie2 is installed on the Special Ops image in the conda environment _py2_.
 aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge shao-cc
 ```
 
-# Connect to Instance and Download Data from S3
+# Connect to Instance 
 ```bash
 aegea ssh ubuntu@shao-cc
+```
+# Tmux or Screen
+We want to start Bowtie2 in a tmux/screen session since this lets us multiplex the screen.
+
+
+Quick-launch tmux session: `tmux`
+
+
+Named tmux session: `tmux new -s bowtie`
+
+# Download Data from S3
+
+```bash
 cd /mnt/data
 aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R1_001.fastq.gz
 aws s3 cp s3://czbiohub-seqbot/fastqs/180615_NB501961_0126_AHWV5YAFXX/rawdata/RR011_006_iso_rna1_H52678_S6_R2_001.fastq.gz
 ```
+
+_Note:_ This tutorial will be done using tmux key bindings. Google "gnu screen cheat sheet" to find the corresponding screen key bindings.
+
+
 # Upload Reference Genome from Local
 - reference genome from NCBI contained in this repo as "Staph\_aureus\_reference.fasta"
 
@@ -22,17 +39,6 @@ aegea scp ubuntu@shao-cc:/mnt/data
 ```
 Go back to your instance.
 
-# Tmux or Screen
-We want to start Bowtie2 in a tmux/screen session since this lets us multiplex the screen.
-
-
-Quick-launch tmux session: `tmux`
-
-
-Named tmux session: `tmux new -s bowtie`
-
-
-_Note:_ This tutorial will be done using tmux key bindings. Google "gnu screen cheat sheet" to find the corresponding screen key bindings.
 
 # Activate Conda Environment
 Bowtie2 is installed in the conda environment _py2_ (SRST2, which depends on Bowtie2 and Python 2, is installed here as well).
