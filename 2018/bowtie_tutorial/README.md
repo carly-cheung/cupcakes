@@ -1,5 +1,5 @@
 # Launch EC2 Instance with Bowtie2
-Bowtie2 is installed on the Special Ops image in the conda environment `py2`.
+Bowtie2 is installed on the Special Ops image.
 ```bash
 aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge shao-cc
 ```
@@ -48,16 +48,6 @@ aegea scp Staph_aureus_reference.fasta ubuntu@shao-cc:/mnt/data
 ```
 Go back to your instance.
 
-
-# Activate Conda Environment
-Bowtie2 is installed in the conda environment `py2` (SRST2, which depends on Bowtie2 and Python 2, is installed here as well).
-
-
-```bash
-source activate py2
-```
-
-# Using Bowtie2
 ## Get Manual Without Going to Browser
 For most bioinformatics tools, either typing the command or adding the flag `--help` or `-h` will bring up a usage manual.
 
@@ -137,20 +127,7 @@ q       # to quit
 # Downstream Analysis
 
 ## Samtools
-- We'll use samtools to convert SAM to BAM, but we need to update our version first.
-
-```bash
-samtools
-
-Program: samtools (Tools for alignments in the SAM format)
-Version: 0.1.18 (r982:295)
-```
-
-```bash
-source deactivate
-conda create -n samtools-env samtools
-source activate samtools-env
-```
+- We'll use samtools to convert SAM to BAM.
 
 ```bash
 samtools
