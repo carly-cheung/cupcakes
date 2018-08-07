@@ -42,11 +42,11 @@
 
 ## 2018-08-07
 
-- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
+- **Gerry Meixiong** ([@gmeixiong](https://github.com/gmeixiong)): *Simplifying Bioinformatics Pipelines with Reflow*
 
 ## 2018-08-14
 
-- **Gerry Meixiong** ([@gmeixiong](https://github.com/gmeixiong)): *Something you spent hours figuring out this week*
+- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
 
 ## 2018-08-21
 
