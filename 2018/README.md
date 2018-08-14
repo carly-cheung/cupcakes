@@ -46,7 +46,7 @@
 
 ## 2018-08-14
 
-- **Rene Sit** ([@renesit](https://github.com/renesit)): *Something you spent hours figuring out this week*
+- **Rene Sit** ([@renesit](https://github.com/renesit)): *Automating FACS plots using R and ggplot2*
 
 ## 2018-08-21
 
