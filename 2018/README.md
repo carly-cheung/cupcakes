@@ -50,7 +50,7 @@
 
 ## 2018-08-21
 
-- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
+- **Kalani Ratnasiri** ([@kalanir](https://github.com/kalanir)): *Introduction to methods of quality controlling raw sequencing reads*
 
 ## 2018-08-28
 
@@ -66,7 +66,7 @@
 
 ## 2018-09-18
 
-- **Kalani Ratnasiri** ([@kalanir](https://github.com/kalanir)): *Something you spent hours figuring out this week*
+- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
 
 ## 2018-09-25
 
