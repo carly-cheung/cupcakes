@@ -2,7 +2,7 @@
 
 ## Launch EC2 Instance, Connect to Instance, Create New Directory
 ```
-aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge kalani-cc4
+aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge --duration-hours 2 kalani-cc4
 
 aegea ssh ubuntu@kalani-cc4
 
