@@ -15,7 +15,7 @@ cd readqc
 - Info about `specops` image here:https://github.com/czbiohub/packer-images
   - We are using this because FastQC is built into it
 - To keep in mind: m5.4xlarge has 16 threads we can use
-- We are changing directories into `/mnt/data` because it is a there is 1TB of memory attached to this
+- We are changing directories into `/mnt/data` because there is 1TB of memory attached to this
 
 ## [Skip Step - For Reference] Preprocessing of original reads
 ```
@@ -81,7 +81,7 @@ These are the coding carpentry parameters except for min size (20 to 30) adjuste
 - threads 4: # of threads to use
 - phred33: encoding system for quality scores
 - ILLUMINACLIP: to clip the Illumina adapters from the input file using the adapter sequences listed in TruSeq3-PE.fa
-  - 2:40:15 - Initially Trimmomatic will look for seed matches (16 bases) allowing maximally 2 mismatches. These seeds will be extended and clipped if in the case of paired end reads a score of 30 is reached or in the case of single ended reads a score of 10 (about 17 bases)
+  - 2:30:10 - Initially Trimmomatic will look for seed matches (16 bases) allowing maximally 2 mismatches. These seeds will be extended and clipped if in the case of paired end reads a score of 30 is reached or in the case of single ended reads a score of 10 (about 17 bases)
 - SLIDINGWINDOW: 4:20: to use a sliding window of size 4 that will remove bases if their phred score is below 20
 - MINLEN:30: drop an entire read if it is below a specified length
 
