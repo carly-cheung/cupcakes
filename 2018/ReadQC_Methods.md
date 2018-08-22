@@ -2,7 +2,7 @@
 
 ## Launch EC2 Instance, Connect to Instance, Create New Directory
 ```
-aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge kalani-cc4
+aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops -t m5.4xlarge --duration-hours 2 kalani-cc4
 
 aegea ssh ubuntu@kalani-cc4
 
@@ -50,11 +50,15 @@ ubuntu@kalani-fastqc4:/mnt/data/fastqc$ aws s3 cp CMS_089a_R2_20e6.fastq s3://ka
 aws s3 cp --recursive --exclude "*" --include "CMS_089a*" s3://kalani-bucket .
 ```
 
-## Download Trimmomatic Adapter Files
+## Find the Trimmomatic Adapter Files
+
+Use the unix `find` command to locate the file path of the adapters called `TruSeq3-PE.fa`:
+
 ```
-git clone https://github.com/timflutre/trimmomatic.git
+ubuntu@olgabot-cupcakes-kalani:/mnt/data/readqc$ find $HOME -name TruSeq3-PE.fa
+/home/ubuntu/anaconda/pkgs/trimmomatic-0.38-0/share/trimmomatic-0.38-0/adapters/TruSeq3-PE.fa
+/home/ubuntu/anaconda/share/trimmomatic-0.38-0/adapters/TruSeq3-PE.fa
 ```
-- adapter files are within /mnt/data/readqc/trimmomatic/adapter
 
 ## PriceSeq Filter the starting data
 To look at the initial quality of the reads we are using.
@@ -74,7 +78,7 @@ These are the IDSeq parameters:
 
 ## Trim reads using Trimmomatic
 ```
-trimmomatic PE -threads 4 -phred33 CMS_089a_R1_20e6.fastq CMS_089a_R2_20e6.fastq CMS_089a_R1_20e6_trim.fastq CMS_089a_R1_20e6_trim_un.fastq CMS_089a_R2_20e6_trim.fastq CMS_089a_R2_20e6_trim_un.fastq ILLUMINACLIP:./trimmomatic/adapters/TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:30
+trimmomatic PE -threads 4 -phred33 CMS_089a_R1_20e6.fastq CMS_089a_R2_20e6.fastq CMS_089a_R1_20e6_trim.fastq CMS_089a_R1_20e6_trim_un.fastq CMS_089a_R2_20e6_trim.fastq CMS_089a_R2_20e6_trim_un.fastq ILLUMINACLIP:/home/ubuntu/anaconda/share/trimmomatic-0.38-0/adapters/TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:30
 ```
 These are the coding carpentry parameters except for min size (20 to 30) adjusted to be compatible with CDHitDup. Additionally, `2:30:10` from manual default.
 - PE: paired end
