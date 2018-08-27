@@ -54,31 +54,31 @@
 
 ## 2018-08-28
 
-- **Maira Phelps** ([@mairaphelps](https://github.com/mairaphelps)): *Something you spent hours figuring out this week*
+- **Amy Lyden** ([@alyden](https://github.com/alyden)): *Preparing gene counts and metadata for DESeq2 gene expression analysis*
 
 ## 2018-09-04
 
-- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
+- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *bedtools*
 
 ## 2018-09-11
 
-- **Amy Lyden** ([@alyden](https://github.com/alyden)): *Something you spent hours figuring out this week*
+- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
 
 ## 2018-09-18
 
-- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
+- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Something you spent hours figuring out this week*
 
 ## 2018-09-25
 
-- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
 
 ## 2018-10-02
 
-- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
+- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
 
 ## 2018-10-09
 
-- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *bedtools*
+- **You?**: *Something you spent hours figuring out this week*
 
 ## 2018-10-16
 

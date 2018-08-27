@@ -12,13 +12,13 @@ date,presenter,github_username,topic
 2018-08-07,Gerry Meixiong,gmeixiong,Simplifying Bioinformatics Pipelines with Reflow
 2018-08-14,Rene Sit,renesit,Automating FACS plots using R and ggplot2
 2018-08-21,Kalani Ratnasiri,kalanir,Introduction to methods of quality controlling raw sequencing reads
-2018-08-28,Maira Phelps,mairaphelps,
-2018-09-04,Greg Huber,gerghuber,
-2018-09-11,Amy Lyden,alyden,
-2018-09-18,Saharai Ortiz,saharai,
-2018-09-25,Hera Canaj,hcanaj,
-2018-10-02,Lincoln Harris,lincoln-harris,
-2018-10-09,Jason Li,Jathrone,bedtools
+2018-08-28,Amy Lyden,alyden,Preparing gene counts and metadata for DESeq2 gene expression analysis
+2018-09-04,Jason Li,Jathrone,bedtools
+2018-09-11,Saharai Ortiz,saharai,
+2018-09-18,Hera Canaj,hcanaj,
+2018-09-25,Lincoln Harris,lincoln-harris,
+2018-10-02,Greg Huber,gerghuber,
+2018-10-09,,,
 2018-10-16,,,
 2018-10-23,,,
 2018-10-30,,,
