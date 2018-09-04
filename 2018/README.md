@@ -58,7 +58,7 @@
 
 ## 2018-09-04
 
-- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *bedtools*
+- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *Amplicon-Seq Readmapping —an adventure with blast, bedtools, and jupyter*
 
 ## 2018-09-11
 
