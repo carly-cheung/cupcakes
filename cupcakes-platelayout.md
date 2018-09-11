@@ -46,10 +46,11 @@ new_df = pd.DataFrame(index=row_elements, columns=np.arange(1,25))
 ## iterate over the letters
 - for el in row_elements:
 - gets all the SAMPLE ID values that match the letter
+
 ```
 IDs = df.loc[sort_df['ROW'] == el]['SAMPLE ID'].values
     col_ids = df.loc[sort_df['ROW'] == el]['COLUMN'].values
-    ```
+  ```
 - sorted the dataframe earlier, so we know enumerating over IDs will be in the correct order
 - assigns row, column, coordinate in new dataframe to matching SAMPLE ID
 
@@ -59,11 +60,13 @@ for ID, col_id in zip(IDs, col_ids):
 ```
 
 ## final sort on the index (letters) to get everything in the right order
+
 ```
 new_df = new_df.sort_index()
 ```
 
 ## writing the final output to a csv
+
 ```
 new_df.to_csv(sys.argv[2])
 ```
