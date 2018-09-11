@@ -62,7 +62,7 @@
 
 ## 2018-09-11
 
-- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
+- **Saharai Caldera** ([@saharai](https://github.com/saharai)): *Converting dataframes to 384 and 96-well plate maps for NGS library processing*
 
 ## 2018-09-18
 
@@ -74,7 +74,7 @@
 
 ## 2018-10-02
 
-- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
+- **You?**: *Something you spent hours figuring out this week*
 
 ## 2018-10-09
 
