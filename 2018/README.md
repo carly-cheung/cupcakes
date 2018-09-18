@@ -66,15 +66,15 @@
 
 ## 2018-09-18
 
-- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Something you spent hours figuring out this week*
+- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Quilting images into well-plate format using PIL- Python image processing*
 
 ## 2018-09-25
 
-- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
+- **Cancelled**: *Beyond the Cell Atlas Conference*
 
 ## 2018-10-02
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
 
 ## 2018-10-09
 

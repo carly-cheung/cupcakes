@@ -15,9 +15,9 @@ date,presenter,github_username,topic
 2018-08-28,Amy Lyden,alyden,Preparing gene counts and metadata for DESeq2 gene expression analysis
 2018-09-04,Jason Li,Jathrone,"Amplicon-Seq Readmapping —an adventure with blast, bedtools, and jupyter"
 2018-09-11,Saharai Caldera,saharai,Converting dataframes to 384 and 96-well plate maps for NGS library processing
-2018-09-18,Hera Canaj,hcanaj,
-2018-09-25,Lincoln Harris,lincoln-harris,
-2018-10-02,,,
+2018-09-18,Hera Canaj,hcanaj,Quilting images into well-plate format using PIL- Python image processing
+2018-09-25,Cancelled,NA,Beyond the Cell Atlas Conference
+2018-10-02,Lincoln Harris,lincoln-harris,
 2018-10-09,,,
 2018-10-16,,,
 2018-10-23,,,
