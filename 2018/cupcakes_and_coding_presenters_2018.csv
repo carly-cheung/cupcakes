@@ -17,8 +17,8 @@ date,presenter,github_username,topic
 2018-09-11,Saharai Caldera,saharai,Converting dataframes to 384 and 96-well plate maps for NGS library processing
 2018-09-18,Hera Canaj,hcanaj,Quilting images into well-plate format using PIL- Python image processing
 2018-09-25,Cancelled,NA,Beyond the Cell Atlas Conference
-2018-10-02,Lincoln Harris,lincoln-harris,
-2018-10-09,,,
+2018-10-02,Lincoln Harris,lincoln-harris,Using RStudio through AWS
+2018-10-09,Olga Botvinnik,olgabot,"All my tricks: Read/write csvs directly to/from AWS, submit 100s of compute jobs, make hover-able figures and overall be a computer wizard"
 2018-10-16,,,
 2018-10-23,,,
 2018-10-30,,,

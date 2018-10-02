@@ -74,11 +74,11 @@
 
 ## 2018-10-02
 
-- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Using RStudio through AWS*
 
 ## 2018-10-09
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Olga Botvinnik** ([@olgabot](https://github.com/olgabot)): *All my tricks: Read/write csvs directly to/from AWS, submit 100s of compute jobs, make hover-able figures and overall be a computer wizard*
 
 ## 2018-10-16
 
