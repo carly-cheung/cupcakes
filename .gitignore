@@ -1,6 +1,9 @@
 .DS_Store
 .ipynb_checkpoints
 
+# Don't include this for now so it appears when people run the notebooks
+sourmash_databases.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
