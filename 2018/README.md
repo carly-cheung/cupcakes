@@ -58,47 +58,47 @@
 
 ## 2018-09-04
 
-- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *bedtools*
+- **Jason Li** ([@Jathrone](https://github.com/Jathrone)): *Amplicon-Seq Readmapping —an adventure with blast, bedtools, and jupyter*
 
 ## 2018-09-11
 
-- **Saharai Ortiz** ([@saharai](https://github.com/saharai)): *Something you spent hours figuring out this week*
+- **Saharai Caldera** ([@saharai](https://github.com/saharai)): *Converting dataframes to 384 and 96-well plate maps for NGS library processing*
 
 ## 2018-09-18
 
-- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Something you spent hours figuring out this week*
+- **Hera Canaj** ([@hcanaj](https://github.com/hcanaj)): *Quilting images into well-plate format using PIL- Python image processing*
 
 ## 2018-09-25
 
-- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
+- **Cancelled**: *Beyond the Cell Atlas Conference*
 
 ## 2018-10-02
 
-- **Greg Huber** ([@gerghuber](https://github.com/gerghuber)): *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Using RStudio through AWS*
 
 ## 2018-10-09
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Olga Botvinnik** ([@olgabot](https://github.com/olgabot)): *All my tricks: Read/write csvs directly to/from AWS, submit 100s of compute jobs, make hover-able figures and overall be a computer wizard*
 
 ## 2018-10-16
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Angela Pisco** ([@aopisco](https://github.com/aopisco)): *How to be an Adobe Illustrator wizard*
 
 ## 2018-10-23
 
-- **You?**: *Something you spent hours figuring out this week*
+- **David Yllanes**: *Something you spent hours figuring out this week*
 
 ## 2018-10-30
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Ashley Maynard**: *Something you spent hours figuring out this week*
 
 ## 2018-11-06
 
-- **You?**: *Something you spent hours figuring out this week*
+- **James Webber**: *Something you spent hours figuring out this week*
 
 ## 2018-11-13
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Lucy Li**: *Something you spent hours figuring out this week*
 
 ## 2018-11-20
 
@@ -106,15 +106,15 @@
 
 ## 2018-11-27
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Sabera Talukder**: *Something you spent hours figuring out this week*
 
 ## 2018-12-04
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Calla Martyn**: *Something you spent hours figuring out this week*
 
 ## 2018-12-11
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Giana Cirolia**: *Something you spent hours figuring out this week*
 
 ## 2018-12-18
 
@@ -126,12 +126,140 @@
 
 ## 2019-01-01
 
-- **You?**: *Something you spent hours figuring out this week*
+- **You?**: *Winter Holiday*
 
 ## 2019-01-08
 
-- **You?**: *Something you spent hours figuring out this week*
+- **Sabera Talukder**: *Something you spent hours figuring out this week*
 
 ## 2019-01-15
+
+- **Calla Martyn**: *Something you spent hours figuring out this week*
+
+## 2019-01-22
+
+- **Giana Cirolia**: *Something you spent hours figuring out this week*
+
+## 2019-01-29
+
+- **John Pak**: *Something you spent hours figuring out this week*
+
+## 2019-02-05
+
+- **Prashanth Ramachandran**: *Something you spent hours figuring out this week*
+
+## 2019-02-12
+
+- **Emily Crawford**: *Something you spent hours figuring out this week*
+
+## 2019-02-19
+
+- **Carly Cheung**: *Something you spent hours figuring out this week*
+
+## 2019-02-26
+
+- **Amy Lyden**: *Something you spent hours figuring out this week*
+
+## 2019-03-05
+
+- **Maira  Phelps**: *Something you spent hours figuring out this week*
+
+## 2019-03-12
+
+- **Rene Sit**: *Something you spent hours figuring out this week*
+
+## 2019-03-19
+
+- **Saharai Caldera**: *Something you spent hours figuring out this week*
+
+## 2019-03-26
+
+- **David Dynerman**: *Something you spent hours figuring out this week*
+
+## 2019-04-02
+
+- **Jack Kamm**: *Something you spent hours figuring out this week*
+
+## 2019-04-09
+
+- **Bing Wu**: *Something you spent hours figuring out this week*
+
+## 2019-04-16
+
+- **Eric Waltari**: *Something you spent hours figuring out this week*
+
+## 2019-04-23
+
+- **Kalani Ratnasiri**: *Something you spent hours figuring out this week*
+
+## 2019-04-30
+
+- **Michelle Tan**: *Something you spent hours figuring out this week*
+
+## 2019-05-07
+
+- **Hera Canaj**: *Something you spent hours figuring out this week*
+
+## 2019-05-14
+
+- **Amy Kistler**: *Something you spent hours figuring out this week*
+
+## 2019-05-21
+
+- **Bryant Chhun**: *Something you spent hours figuring out this week*
+
+## 2019-05-28
+
+- **Lincoln Harris**: *Something you spent hours figuring out this week*
+
+## 2019-06-04
+
+- **Greg Huber**: *Something you spent hours figuring out this week*
+
+## 2019-06-11
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-06-18
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-06-25
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-07-02
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-07-09
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-07-16
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-07-23
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-07-30
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-08-06
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-08-13
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-08-20
+
+- **You?**: *Something you spent hours figuring out this week*
+
+## 2019-08-27
 
 - **You?**: *Something you spent hours figuring out this week*
