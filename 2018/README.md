@@ -90,7 +90,7 @@
 
 ## 2018-10-30
 
-- **David Yllanes**: *Something you spent hours figuring out this week*
+- **David Yllanes**: *Markov Chain Monte Carlo Methods*
 
 ## 2018-11-06
 
@@ -98,7 +98,7 @@
 
 ## 2018-11-13
 
-- **You?**: *maybe brian yu?*
+- **Brian Yu**: *maybe brian yu?*
 
 ## 2018-11-20
 
