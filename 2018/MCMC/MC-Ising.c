@@ -14,7 +14,7 @@
 
 //We implement both the single-spin dynamics (heat bath) 
 //and two versions of cluster dynamics
-//#define HEATBATH        //Uncomment the dynamical rules you want to use
+#define HEATBATH        //Uncomment the dynamical rules you want to use
 //#define SWENDSENWANG
 //#define WOLFF
 
