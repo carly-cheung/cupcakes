@@ -94,7 +94,7 @@
 
 ## 2018-11-06
 
-- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Something you spent hours figuring out this week*
+- **Lincoln Harris** ([@lincoln-harris](https://github.com/lincoln-harris)): *Shell Novice from Data Carpentry - https://swcarpentry.github.io/shell-novice/*
 
 ## 2018-11-13
 
