@@ -105,8 +105,7 @@ raxml-ng --all --msa aln.fasta --model GTR+G+I --bs-trees 200 --prefix raxml/rax
 
 ### Bayesian approaches
 
-- BEAST
-- MrBayes
+This won't be covered today, but Bayesian methods for phylogenetic reconstruction can provide estimates of times of divergence in addition to genetic relatedness. This can be useful for infectious diseaes analyses, e.g. when estimating the date of introduction of a new pathogen. Common tools include [BEAST](http://beast.community/) and [MrBayes](http://nbisweden.github.io/MrBayes/). However, these methods are slow as they try reconstruct a distribution of plausible trees. Practically, these methods can only be used for a few hundred pathogen sequences.
 
 ## Kmer-based phylogenies
 
@@ -241,11 +240,13 @@ From the above plot, it's clear that the chikungunya virus outbreak in the Ameri
 ggsave("tree_plot_continent.pdf", tree_plot_continent, width=8, height=8)
 ```
 
-
 ## Interactive display in javascript
 
-- phylotree.js
+In addition to generating static phylogenies, there are various tools now available that enable interactivity. An example is [Nextstrain](Nextstrain
+https://nextstrain.org/) by Trevor Bedford's group at Fred Hutchinson.
+
+Also, we are developing an interactive tool here at the Biohub for tracking the spread of antimicrobial resistant bacteria in California and beyond:
+
 - https://bcrew.czbiohub.org (username: demo; password: demo)
-- Nextstrain
 
 
