@@ -3,14 +3,20 @@
 ##Installation instructions
 
 conda create -n pyviz-cupcakes python=3.6
+
 conda activate pyviz-cupcakes
+
 conda install -c pyviz/label/dev pyviz
 
+
 ##Fun PyViz examples
+
 pyviz examples
+
 cd pyviz-examples
 
 
 #download project-rr022-full-files_sample-table.csv into your working directory 
 #open 
+
 jupyter notebook
