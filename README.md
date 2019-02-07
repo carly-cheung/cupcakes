@@ -3,7 +3,9 @@
 ##Installation instructions
 
 conda create -n pyviz-cupcakes python=3.6
+
 conda activate pyviz-cupcakes
+
 conda install -c pyviz/label/dev pyviz
 
 ##Fun PyViz examples
