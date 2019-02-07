@@ -2,7 +2,7 @@
 
 ## 2019-01-24
 
-- **State of the Cupcakes**: *Something you spent hours figuring out this week*
+- **State of the Cupcakes**: *Feedback on 2018 and suggestions for 2019*
 
 ## 2019-01-31
 
