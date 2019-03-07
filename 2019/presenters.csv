@@ -5,13 +5,13 @@ date,presenter,github_username,topic,Notes
 2019-02-14,Office Hours,NA,,
 2019-02-21,Phoenix Logan,,Intro to parallelization in Python using Concurrent.futures,
 2019-02-28,Office Hours,NA,,
-2019-03-07,Emily Crawford,,,
+2019-03-07,Emily Crawford,,Finding overlapping genomic regions using bedtools (without falling asleep),
 2019-03-14,Office Hours,NA,,
-2019-03-21,Microscopy series,,,
+2019-03-21,Bryant Chhun,,Automating acquisition with micro-manager,Microscopy series
 2019-03-28,Office Hours,NA,,
-2019-04-04,Microscopy series,,,
+2019-04-04,Shalin Mehta,,"Resolution, magnification, and sampling",Microscopy series
 2019-04-11,Office Hours,NA,,
-2019-04-18,Microscopy series,,,
+2019-04-18,Shalin Mehta,,Microscopy data analysis tutorial,Microscopy series
 2019-04-25,Office Hours,NA,,
 2019-05-02,Carly Cheung,,,
 2019-05-09,Office Hours,NA,,

@@ -26,7 +26,7 @@
 
 ## 2019-03-07
 
-- **Emily Crawford**: *Something you spent hours figuring out this week*
+- **Emily Crawford**: *Finding overlapping genomic regions using bedtools (without falling asleep)*
 
 ## 2019-03-14
 
@@ -34,7 +34,7 @@
 
 ## 2019-03-21
 
-- **Microscopy series**: *Something you spent hours figuring out this week*
+- **Bryant Chhun**: *Automating acquisition with micro-manager*
 
 ## 2019-03-28
 
@@ -42,7 +42,7 @@
 
 ## 2019-04-04
 
-- **Microscopy series**: *Something you spent hours figuring out this week*
+- **Shalin Mehta**: *Resolution, magnification, and sampling*
 
 ## 2019-04-11
 
@@ -50,7 +50,7 @@
 
 ## 2019-04-18
 
-- **Microscopy series**: *Something you spent hours figuring out this week*
+- **Shalin Mehta**: *Microscopy data analysis tutorial*
 
 ## 2019-04-25
 
