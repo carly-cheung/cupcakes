@@ -171,13 +171,13 @@ Let's filter by both on and off target activity.
 
 You can use `bedtools` to help generate your on-target and off-target fastas.
 
-## Install bedtools (SKIP SINCE USING IMAGE)
+### Install bedtools (SKIP SINCE USING IMAGE)
 ```
 sudo apt install bedtools
 ```
 Note: having trouble with sudo sometimes on instances because username not in /etc/host, works well otherwise...try some of these options if it is not working https://bedtools.readthedocs.io/en/latest/content/installation.html
 
-**On-target files**
+### **On-target files**
 
 If you have a bed file annotating on-target regions, you can use `bedtools getfasta` to generate an on-target fasta. I created a bed file from UCSC Genome Browser, pulling all regions which were annotated as ribosomal in the mm10.fa genome. I then downloaded the mm10.fa.
 
@@ -186,7 +186,7 @@ Using these two files, bedtools will pull out the on-target regions of the mm10 
 bedtools getfasta -fi mm10.fa -bed mm10_rRNA.bed -fo on-target_mm10_rRNA.fa
 ```
 
-**Off-target files**
+### **Off-target files**
 You can use the same bed file to mask on-target regions of a fasta to generate an off-target fasta, using `bedtools maskfasta`, with the `-mc -` option. This will replace all regions in the bed file with a `-` instead of a nucleotide. Since I want to preserve other elements of the mouse genome, I will mask everything that is not rRNA, as annotated by my bed file. [This step will take 1-3 minutes]
 
 ```
@@ -205,7 +205,7 @@ cat off-target_mm10.fa CalbicansSC5314_genome_allNs.fasta > off-target_mm10_SC53
 
 *Note*: Both fastas should contain no letters other than A, G, C, T or N.
 
-###Running crispr_sites on your on and off target fastas
+### Running crispr_sites on your on and off target fastas
 We will now run crispr_sites (like before), without the -r flag since these are not reads. This may take 4-5 minutes.
 
 ```
@@ -213,7 +213,7 @@ cat on-target_mm10_rRNA.fa | crispr_sites > on_target_crispr_sites.txt
 cat off-target_mm10_SC5314.fa | crispr_sites > off_target_crispr_sites.txt
 ```
 
-###Running dashit-reads-filter to include your on-target guides and exclude off-target guides
+### Running dashit-reads-filter to include your on-target guides and exclude off-target guides
 
 We can now use our on-target crispr sites file, our off-target crispr sites file and our reads crispr sites file to run dashit-reads-filter. Run the following command to see all the options for filtering, including structural and GC content flags.
 
@@ -368,7 +368,7 @@ Your formatted CSV will contain five columns
 less mouse_rRNA_final96_guides_scored.csv
 ```
 
-### Running the design_guides_wrapper script
+## Running the design_guides_wrapper script
 
 This script will run crispr_sites, optimize_guides, score_guides, and the formatting Python script. Once you have created your on-target and off-target fastas, you can input the following into the wrapper:
 
